@@ -139,7 +139,7 @@ public class DBBuilder {
             DateFormat df = new SimpleDateFormat("HH:mm:ss");
             df.setTimeZone(TimeZone.getTimeZone("GMT"));
             System.out.println("I:  FINISHED. (" + df.format(timeDiff) +")");
-            System.out.println("I:   --> Offline data have been created successfully.");
+            System.out.println("I:   --> Offline data has been created successfully.");
             System.out.println("I:   --> Output file: " + tarGz.getPath());
             System.out.println("I:   --> Revision: " + revision);
 
